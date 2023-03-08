@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>-30</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>   Geeks Calculator</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>170</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;
+font: 25 24pt &quot;Microsoft YaHei&quot;;</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="result">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>420</y>
+      <width>999</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ответ:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="div">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;
+font: 25 24pt &quot;Microsoft YaHei&quot;;</string>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sub">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;
+font: 25 24pt &quot;Microsoft YaHei&quot;;</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mult">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 26pt &quot;Yu Gothic UI Semibold&quot;;
+font: 25 24pt &quot;Microsoft YaHei&quot;;</string>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
